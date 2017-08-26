@@ -56,13 +56,18 @@ data "aws_iam_policy_document" "iam2tf" {
 }
 ```
 
-##### Running Tests
+#### Running Tests
 
 Current status: better than nothing.
 
 ```bash
 for i in test/*.json; do echo $i; ruby iam2tf.rb < $i || break; done
 ```
+
+#### TODO
+
+ * Improve error handling
+ * Add command line options to accept multiple files, etc.
 
 #### References
 
