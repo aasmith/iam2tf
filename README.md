@@ -14,7 +14,7 @@ $ ruby iam2tf.rb < example.json
 
 #### Example Output
 
-```terraform
+```tf
 data "aws_iam_policy_document" "iam2tf" {
 
   statement {
@@ -40,7 +40,7 @@ data "aws_iam_policy_document" "iam2tf" {
 
 #### Example Input
 
-```json
+```javascript
 {
   "Version": "2012-10-17",
   "Statement": [
