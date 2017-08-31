@@ -12,6 +12,12 @@ Given a JSON IAM policy document on stdin, it will produce an equivalent terrafo
 $ ruby iam2tf.rb < example.json
 ```
 
+It is also available as a [docker image](https://hub.docker.com/r/aasmith/iam2tf/).:
+
+```shell
+$ docker run -i aasmith/iam2tf < example.json
+```
+
 #### Example Output
 
 ```tf
