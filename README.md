@@ -78,4 +78,4 @@ for i in test/*.json; do echo $i; ruby iam2tf.rb < $i || break; done
 #### References
 
  * [Terraform IAM Policy Document](https://www.terraform.io/docs/providers/aws/d/iam_policy_document.html)
- * [IAM Policy Grammer](http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_grammar.html)
+ * [IAM Policy Grammar](http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_grammar.html)
